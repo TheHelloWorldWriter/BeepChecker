@@ -1,0 +1,89 @@
+<!--
+  BeepChecker Tauri Application
+
+  This HTML file defines the main user interface for BeepChecker, a modern
+  rewrite of a legacy Windows Forms (.NET Framework 2.0) app, faithfully
+  recreated using web technologies.
+
+  Copyright (c) The Hello World Writer
+  Licensed under MIT
+  https://www.thehelloworldwriter.com
+-->
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="/styles.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BeepChecker</title>
+  <script type="module" src="/main.js" defer></script>
+</head>
+<body class="flex min-h-screen items-center justify-center bg-black text-win-light-gray select-none">
+
+  <!-- The main content of the user interface -->
+  <main class="w-2xl shrink-0">
+
+    <!-- Header Section -->
+    <div class="flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <img src="/assets/beepchecker-icon.svg" alt="BeepChecker Icon" class="w-16 h-16" />
+        <span class="section-title">Standard Beeps</span>
+      </div>
+      <p>
+        <a id="websiteLink" href="https://www.thehelloworldwriter.com" target="_blank" rel="noopener" class="text-sm font-semibold text-beepchecker hover:underline">https://www.thehelloworldwriter.com</a>
+      </p>
+    </div>
+    <hr class="section-divider border-beepchecker" />
+
+    <!-- Standard Beeps Section -->
+    <div class="space-y-3">
+      <div class="beep-row">
+        <button id="simpleBeepButton" class="beep-button">Simple Beep</button>
+        <p>A simple beep. If the sound card is not available, the sound is generated using the speaker.</p>
+      </div>
+      <div class="beep-row">
+        <button id="okBeepButton" class="beep-button">OK Beep</button>
+        <p><code>MB_OK</code><br>The sound specified as the Windows Default Beep sound.</p>
+      </div>
+      <div class="beep-row">
+        <button id="informationBeepButton" class="beep-button">Information Beep</button>
+        <p><code>MB_ICONINFORMATION, MB_ICONASTERISK</code><br>The sound specified as the Windows Asterisk sound.</p>
+      </div>
+      <div class="beep-row">
+        <button id="questionBeepButton" class="beep-button">Question Beep</button>
+        <p><code>MB_ICONQUESTION</code><br>The sound specified as the Windows Question sound.</p>
+      </div>
+      <div class="beep-row">
+        <button id="warningBeepButton" class="beep-button">Warning Beep</button>
+        <p><code>MB_ICONWARNING, MB_ICONEXCLAMATION</code><br>The sound specified as the Windows Exclamation sound.</p>
+      </div>
+      <div class="beep-row">
+        <button id="errorBeepButton" class="beep-button">Error Beep</button>
+        <p><code>MB_ICONERROR, MB_ICONHAND, MB_ICONSTOP</code><br>The sound specified as the Windows Critical Stop sound.</p>
+      </div>
+    </div>
+
+    <!-- Custom Beep Section -->
+    <h2 class="section-title mt-8">Custom Beep</h2>
+    <hr class="section-divider" />
+    <form class="beep-row" autocomplete="off" aria-label="Custom Beep">
+      <button type="button" id="customBeepButton" class="beep-button">Play Beep</button>
+      <div class="flex items-center justify-between gap-x-6">
+        <div>
+          <label for="frequencyInput" class="beep-label">Frequency (Hz):</label>
+          <input id="frequencyInput" name="frequency" type="number" min="37" max="32767" value="1000" class="beep-input" aria-label="Frequency in Hertz" required />
+        </div>
+        <div>
+          <label for="durationInput" class="beep-label">Duration (ms):</label>
+          <input id="durationInput" name="duration" type="number" min="1" max="10000" value="500" class="beep-input" aria-label="Duration in milliseconds" required />
+        </div>
+      </div>
+    </form>
+  </main>
+
+  <!-- The error snackbar for displaying error messages -->
+  <p id="errorSnackbar" hidden class="fixed top-0 right-0 left-0 bg-error px-4 py-1 text-white shadow-lg"></p>
+
+</body>
+</html>

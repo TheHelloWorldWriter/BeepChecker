@@ -1,0 +1,66 @@
+/**
+ * Styles for the BeepChecker Tauri application.
+ *
+ * This CSS file, together with Tailwind CSS utility classes in the HTML,
+ * faithfully recreates the classic Windows UI of the original BeepChecker,
+ * which was built with Windows Forms and .NET Framework 2.0. The legacy
+ * design and user experience have been replicated using modern frontend
+ * technologies in a Tauri app.
+ *
+ * Copyright (c) The Hello World Writer
+ * Licensed under MIT
+ * https://www.thehelloworldwriter.com
+ */
+
+@import "tailwindcss" source("../src");
+
+@theme {
+  /* Use an appropriate font stack for a Windows application */
+  --font-sans: 'Segoe UI Variable Text', 'Segoe UI', 'Tahoma', ui-sans-serif, system-ui, sans-serif;
+
+  /* Define custom colors for the application */
+  --color-beepchecker: #00C8FF;
+  --color-button-border: #888888;
+  --color-button-background: #555555;
+  --color-error: #D7263D;
+
+  /* Windows .NET Framework system colors */
+  --color-win-light-gray: #D3D3D3;
+  --color-win-dark-gray: #A9A9A9;
+  --color-win-white-smoke: #F5F5F5;
+}
+
+@layer base {
+}
+
+@layer components {
+  /* Section title */
+  .section-title {
+    @apply ml-2 text-2xl font-semibold text-white;
+  }
+
+  /* Section divider */
+  .section-divider {
+    @apply mt-3 mb-4 border-t-2 border-win-dark-gray;
+  }
+
+  /* A row with a beep button and description */
+  .beep-row {
+    @apply flex flex-row items-center gap-x-6;
+  }
+
+  /* The beep button */
+  .beep-button {
+    @apply w-44 shrink-0 rounded-none border-2 border-button-border bg-button-background px-6 py-2.5 text-center text-base font-normal text-win-white-smoke shadow-none transition-colors duration-150 hover:bg-beepchecker focus:ring-2 focus:ring-beepchecker focus:outline-none;
+  }
+
+  /* Input fields for custom beep settings */
+  .beep-input {
+    @apply w-24 rounded-none border border-button-border bg-win-light-gray px-3 py-2 text-base text-black shadow-none focus:ring-2 focus:ring-beepchecker focus:outline-none;
+  }
+
+  /* Label for beep settings */
+  .beep-label {
+    @apply mr-2 text-sm font-semibold;
+  }
+}

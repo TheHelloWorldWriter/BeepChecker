@@ -1,0 +1,27 @@
+{
+  "name": "beepchecker",
+  "description": "Frontend build configuration and tooling for BeepChecker, a modern Tauri rewrite of a legacy Windows Forms app",
+  "private": true,
+  "version": "3.0.0",
+  "type": "module",
+  "scripts": {
+    "clean:frontend": "find dist -mindepth 1 -delete",
+
+    "dev:css": "npx @tailwindcss/cli -i ./src/styles.css -o ./dist/styles.css --watch",
+    "dev:frontend": "npm run clean:frontend && (node build-frontend.js watch & npm run dev:css)",
+
+    "build:css": "npx @tailwindcss/cli -i ./src/styles.css -o ./dist/styles.css --minify",
+    "build:frontend": "npm run clean:frontend && npm run build:css && node build-frontend.js",
+
+    "tauri": "tauri"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "@tauri-apps/cli": "^2.7.1",
+    "chokidar": "^4.0.3",
+    "html-minifier-next": "^1.1.5",
+    "tailwindcss": "^4.1.11",
+    "terser": "^5.43.1",
+    "yoctocolors": "^2.1.1"
+  }
+}

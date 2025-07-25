@@ -1,0 +1,8 @@
+BEEPCHECKER v3.0.0 - Play, test, and learn Windows beeps.
+A modern Tauri rewrite of a legacy Windows Forms app.
+Hear Information, Question, Warning, Error sounds.
+Generate custom beeps by frequency and duration.
+Great for learning, testing, and nostalgia.
+Portable, easy to use, Windows 10/11 compatible.
+Copyright (c) The Hello World Writer. MIT License.
+https://www.thehelloworldwriter.com/beepchecker/
