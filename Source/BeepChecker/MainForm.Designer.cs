@@ -81,10 +81,9 @@
             this.standardBeepsTableLayoutPanel.Controls.Add(this.warningBeepButton, 0, 4);
             this.standardBeepsTableLayoutPanel.Controls.Add(this.errorBeepLabel, 1, 5);
             this.standardBeepsTableLayoutPanel.Dock = System.Windows.Forms.DockStyle.Top;
-            this.standardBeepsTableLayoutPanel.Location = new System.Drawing.Point(8, 60);
-            this.standardBeepsTableLayoutPanel.Margin = new System.Windows.Forms.Padding(2);
+            this.standardBeepsTableLayoutPanel.Location = new System.Drawing.Point(12, 92);
             this.standardBeepsTableLayoutPanel.Name = "standardBeepsTableLayoutPanel";
-            this.standardBeepsTableLayoutPanel.Padding = new System.Windows.Forms.Padding(45, 16, 0, 8);
+            this.standardBeepsTableLayoutPanel.Padding = new System.Windows.Forms.Padding(68, 25, 0, 12);
             this.standardBeepsTableLayoutPanel.RowCount = 6;
             this.standardBeepsTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.standardBeepsTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -92,7 +91,7 @@
             this.standardBeepsTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.standardBeepsTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.standardBeepsTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.standardBeepsTableLayoutPanel.Size = new System.Drawing.Size(557, 264);
+            this.standardBeepsTableLayoutPanel.Size = new System.Drawing.Size(836, 403);
             this.standardBeepsTableLayoutPanel.TabIndex = 1;
             // 
             // errorBeepButton
@@ -105,10 +104,10 @@
             this.errorBeepButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(173)))), ((int)(((byte)(246)))));
             this.errorBeepButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.errorBeepButton.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.errorBeepButton.Location = new System.Drawing.Point(47, 220);
-            this.errorBeepButton.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
+            this.errorBeepButton.Location = new System.Drawing.Point(71, 336);
+            this.errorBeepButton.Margin = new System.Windows.Forms.Padding(3, 6, 3, 6);
             this.errorBeepButton.Name = "errorBeepButton";
-            this.errorBeepButton.Size = new System.Drawing.Size(112, 32);
+            this.errorBeepButton.Size = new System.Drawing.Size(168, 49);
             this.errorBeepButton.TabIndex = 14;
             this.errorBeepButton.Text = "&Error Beep";
             this.errorBeepButton.UseVisualStyleBackColor = false;
@@ -124,10 +123,10 @@
             this.informationBeepButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(173)))), ((int)(((byte)(246)))));
             this.informationBeepButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.informationBeepButton.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.informationBeepButton.Location = new System.Drawing.Point(47, 100);
-            this.informationBeepButton.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
+            this.informationBeepButton.Location = new System.Drawing.Point(71, 153);
+            this.informationBeepButton.Margin = new System.Windows.Forms.Padding(3, 6, 3, 6);
             this.informationBeepButton.Name = "informationBeepButton";
-            this.informationBeepButton.Size = new System.Drawing.Size(112, 32);
+            this.informationBeepButton.Size = new System.Drawing.Size(168, 49);
             this.informationBeepButton.TabIndex = 8;
             this.informationBeepButton.Text = "&Information Beep";
             this.informationBeepButton.UseVisualStyleBackColor = false;
@@ -138,11 +137,10 @@
             this.okBeepLabel.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.okBeepLabel.AutoSize = true;
             this.okBeepLabel.ForeColor = System.Drawing.Color.LightGray;
-            this.okBeepLabel.Location = new System.Drawing.Point(163, 63);
-            this.okBeepLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.okBeepLabel.Location = new System.Drawing.Point(245, 96);
             this.okBeepLabel.Name = "okBeepLabel";
-            this.okBeepLabel.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.okBeepLabel.Size = new System.Drawing.Size(297, 26);
+            this.okBeepLabel.Padding = new System.Windows.Forms.Padding(22, 0, 0, 0);
+            this.okBeepLabel.Size = new System.Drawing.Size(439, 40);
             this.okBeepLabel.TabIndex = 7;
             this.okBeepLabel.Text = "MB_OK\r\nThe sound specified as the Windows Default Beep sound.";
             this.okBeepLabel.Click += new System.EventHandler(this.EventBeepLabelsClick);
@@ -152,11 +150,10 @@
             this.simpleBeepLabel.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.simpleBeepLabel.AutoSize = true;
             this.simpleBeepLabel.ForeColor = System.Drawing.Color.LightGray;
-            this.simpleBeepLabel.Location = new System.Drawing.Point(163, 23);
-            this.simpleBeepLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.simpleBeepLabel.Location = new System.Drawing.Point(245, 35);
             this.simpleBeepLabel.Name = "simpleBeepLabel";
-            this.simpleBeepLabel.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.simpleBeepLabel.Size = new System.Drawing.Size(300, 26);
+            this.simpleBeepLabel.Padding = new System.Windows.Forms.Padding(22, 0, 0, 0);
+            this.simpleBeepLabel.Size = new System.Drawing.Size(445, 40);
             this.simpleBeepLabel.TabIndex = 2;
             this.simpleBeepLabel.Text = "A simple beep. If the sound card is not available, the sound\r\nis generated using " +
     "the speaker.";
@@ -171,10 +168,10 @@
             this.simpleBeepButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(173)))), ((int)(((byte)(246)))));
             this.simpleBeepButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.simpleBeepButton.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.simpleBeepButton.Location = new System.Drawing.Point(47, 20);
-            this.simpleBeepButton.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
+            this.simpleBeepButton.Location = new System.Drawing.Point(71, 31);
+            this.simpleBeepButton.Margin = new System.Windows.Forms.Padding(3, 6, 3, 6);
             this.simpleBeepButton.Name = "simpleBeepButton";
-            this.simpleBeepButton.Size = new System.Drawing.Size(112, 32);
+            this.simpleBeepButton.Size = new System.Drawing.Size(168, 49);
             this.simpleBeepButton.TabIndex = 1;
             this.simpleBeepButton.Text = "&Simple Beep";
             this.simpleBeepButton.UseVisualStyleBackColor = false;
@@ -190,10 +187,10 @@
             this.okBeepButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(173)))), ((int)(((byte)(246)))));
             this.okBeepButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.okBeepButton.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.okBeepButton.Location = new System.Drawing.Point(47, 60);
-            this.okBeepButton.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
+            this.okBeepButton.Location = new System.Drawing.Point(71, 92);
+            this.okBeepButton.Margin = new System.Windows.Forms.Padding(3, 6, 3, 6);
             this.okBeepButton.Name = "okBeepButton";
-            this.okBeepButton.Size = new System.Drawing.Size(112, 32);
+            this.okBeepButton.Size = new System.Drawing.Size(168, 49);
             this.okBeepButton.TabIndex = 6;
             this.okBeepButton.Text = "&OK Beep";
             this.okBeepButton.UseVisualStyleBackColor = false;
@@ -204,11 +201,10 @@
             this.informationBeepLabel.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.informationBeepLabel.AutoSize = true;
             this.informationBeepLabel.ForeColor = System.Drawing.Color.LightGray;
-            this.informationBeepLabel.Location = new System.Drawing.Point(163, 103);
-            this.informationBeepLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.informationBeepLabel.Location = new System.Drawing.Point(245, 157);
             this.informationBeepLabel.Name = "informationBeepLabel";
-            this.informationBeepLabel.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.informationBeepLabel.Size = new System.Drawing.Size(272, 26);
+            this.informationBeepLabel.Padding = new System.Windows.Forms.Padding(22, 0, 0, 0);
+            this.informationBeepLabel.Size = new System.Drawing.Size(402, 40);
             this.informationBeepLabel.TabIndex = 9;
             this.informationBeepLabel.Text = "MB_ICONINFORMATION, MB_ICONASTERISK\r\nThe sound specified as the Windows Asterisk " +
     "sound.";
@@ -219,11 +215,10 @@
             this.questionBeepLabel.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.questionBeepLabel.AutoSize = true;
             this.questionBeepLabel.ForeColor = System.Drawing.Color.LightGray;
-            this.questionBeepLabel.Location = new System.Drawing.Point(163, 143);
-            this.questionBeepLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.questionBeepLabel.Location = new System.Drawing.Point(245, 218);
             this.questionBeepLabel.Name = "questionBeepLabel";
-            this.questionBeepLabel.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.questionBeepLabel.Size = new System.Drawing.Size(277, 26);
+            this.questionBeepLabel.Padding = new System.Windows.Forms.Padding(22, 0, 0, 0);
+            this.questionBeepLabel.Size = new System.Drawing.Size(409, 40);
             this.questionBeepLabel.TabIndex = 11;
             this.questionBeepLabel.Text = "MB_ICONQUESTION\r\nThe sound specified as the Windows Question sound.";
             this.questionBeepLabel.Click += new System.EventHandler(this.EventBeepLabelsClick);
@@ -238,10 +233,10 @@
             this.questionBeepButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(173)))), ((int)(((byte)(246)))));
             this.questionBeepButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.questionBeepButton.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.questionBeepButton.Location = new System.Drawing.Point(47, 140);
-            this.questionBeepButton.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
+            this.questionBeepButton.Location = new System.Drawing.Point(71, 214);
+            this.questionBeepButton.Margin = new System.Windows.Forms.Padding(3, 6, 3, 6);
             this.questionBeepButton.Name = "questionBeepButton";
-            this.questionBeepButton.Size = new System.Drawing.Size(112, 32);
+            this.questionBeepButton.Size = new System.Drawing.Size(168, 49);
             this.questionBeepButton.TabIndex = 10;
             this.questionBeepButton.Text = "&Question Beep";
             this.questionBeepButton.UseVisualStyleBackColor = false;
@@ -252,11 +247,10 @@
             this.warningBeepLabel.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.warningBeepLabel.AutoSize = true;
             this.warningBeepLabel.ForeColor = System.Drawing.Color.LightGray;
-            this.warningBeepLabel.Location = new System.Drawing.Point(163, 183);
-            this.warningBeepLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.warningBeepLabel.Location = new System.Drawing.Point(245, 279);
             this.warningBeepLabel.Name = "warningBeepLabel";
-            this.warningBeepLabel.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.warningBeepLabel.Size = new System.Drawing.Size(292, 26);
+            this.warningBeepLabel.Padding = new System.Windows.Forms.Padding(22, 0, 0, 0);
+            this.warningBeepLabel.Size = new System.Drawing.Size(431, 40);
             this.warningBeepLabel.TabIndex = 13;
             this.warningBeepLabel.Text = "MB_ICONWARNING, MB_ICONEXCLAMATION\r\nThe sound specified as the Windows Exclamatio" +
     "n sound.";
@@ -272,10 +266,10 @@
             this.warningBeepButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(173)))), ((int)(((byte)(246)))));
             this.warningBeepButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.warningBeepButton.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.warningBeepButton.Location = new System.Drawing.Point(47, 180);
-            this.warningBeepButton.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
+            this.warningBeepButton.Location = new System.Drawing.Point(71, 275);
+            this.warningBeepButton.Margin = new System.Windows.Forms.Padding(3, 6, 3, 6);
             this.warningBeepButton.Name = "warningBeepButton";
-            this.warningBeepButton.Size = new System.Drawing.Size(112, 32);
+            this.warningBeepButton.Size = new System.Drawing.Size(168, 49);
             this.warningBeepButton.TabIndex = 12;
             this.warningBeepButton.Text = "&Warning Beep";
             this.warningBeepButton.UseVisualStyleBackColor = false;
@@ -286,11 +280,10 @@
             this.errorBeepLabel.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.errorBeepLabel.AutoSize = true;
             this.errorBeepLabel.ForeColor = System.Drawing.Color.LightGray;
-            this.errorBeepLabel.Location = new System.Drawing.Point(163, 223);
-            this.errorBeepLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.errorBeepLabel.Location = new System.Drawing.Point(245, 340);
             this.errorBeepLabel.Name = "errorBeepLabel";
-            this.errorBeepLabel.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.errorBeepLabel.Size = new System.Drawing.Size(291, 26);
+            this.errorBeepLabel.Padding = new System.Windows.Forms.Padding(22, 0, 0, 0);
+            this.errorBeepLabel.Size = new System.Drawing.Size(430, 40);
             this.errorBeepLabel.TabIndex = 15;
             this.errorBeepLabel.Text = "MB_ICONERROR, MB_ICONHAND, MB_ICONSTOP\r\nThe sound specified as the Windows Critic" +
     "al Stop sound.";
@@ -305,10 +298,9 @@
             this.standardBeepsLabel.Image = global::BeepChecker.Properties.Resources.BeepCheckerIcon48x48;
             this.standardBeepsLabel.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.standardBeepsLabel.Location = new System.Drawing.Point(0, 0);
-            this.standardBeepsLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.standardBeepsLabel.Name = "standardBeepsLabel";
-            this.standardBeepsLabel.Padding = new System.Windows.Forms.Padding(22, 0, 0, 0);
-            this.standardBeepsLabel.Size = new System.Drawing.Size(262, 50);
+            this.standardBeepsLabel.Padding = new System.Windows.Forms.Padding(33, 0, 0, 0);
+            this.standardBeepsLabel.Size = new System.Drawing.Size(393, 77);
             this.standardBeepsLabel.TabIndex = 2;
             this.standardBeepsLabel.Text = "Standard Beeps";
             this.standardBeepsLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -317,10 +309,9 @@
             // 
             this.topDividerLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(173)))), ((int)(((byte)(246)))));
             this.topDividerLabel.Dock = System.Windows.Forms.DockStyle.Top;
-            this.topDividerLabel.Location = new System.Drawing.Point(8, 58);
-            this.topDividerLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.topDividerLabel.Location = new System.Drawing.Point(12, 89);
             this.topDividerLabel.Name = "topDividerLabel";
-            this.topDividerLabel.Size = new System.Drawing.Size(557, 2);
+            this.topDividerLabel.Size = new System.Drawing.Size(836, 3);
             this.topDividerLabel.TabIndex = 3;
             // 
             // customBeepLabel
@@ -330,11 +321,10 @@
             this.customBeepLabel.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.customBeepLabel.ForeColor = System.Drawing.Color.White;
             this.customBeepLabel.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.customBeepLabel.Location = new System.Drawing.Point(8, 324);
-            this.customBeepLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.customBeepLabel.Location = new System.Drawing.Point(12, 495);
             this.customBeepLabel.Name = "customBeepLabel";
-            this.customBeepLabel.Padding = new System.Windows.Forms.Padding(22, 0, 0, 0);
-            this.customBeepLabel.Size = new System.Drawing.Size(557, 50);
+            this.customBeepLabel.Padding = new System.Windows.Forms.Padding(33, 0, 0, 0);
+            this.customBeepLabel.Size = new System.Drawing.Size(836, 77);
             this.customBeepLabel.TabIndex = 4;
             this.customBeepLabel.Text = "Custom Beep";
             this.customBeepLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -347,11 +337,10 @@
             this.customBeepFlowLayoutPanel.Controls.Add(this.durationLabel);
             this.customBeepFlowLayoutPanel.Controls.Add(this.durationNumericUpDown);
             this.customBeepFlowLayoutPanel.Dock = System.Windows.Forms.DockStyle.Top;
-            this.customBeepFlowLayoutPanel.Location = new System.Drawing.Point(8, 376);
-            this.customBeepFlowLayoutPanel.Margin = new System.Windows.Forms.Padding(2);
+            this.customBeepFlowLayoutPanel.Location = new System.Drawing.Point(12, 575);
             this.customBeepFlowLayoutPanel.Name = "customBeepFlowLayoutPanel";
-            this.customBeepFlowLayoutPanel.Padding = new System.Windows.Forms.Padding(45, 16, 0, 0);
-            this.customBeepFlowLayoutPanel.Size = new System.Drawing.Size(557, 60);
+            this.customBeepFlowLayoutPanel.Padding = new System.Windows.Forms.Padding(68, 25, 0, 0);
+            this.customBeepFlowLayoutPanel.Size = new System.Drawing.Size(836, 92);
             this.customBeepFlowLayoutPanel.TabIndex = 5;
             // 
             // customBeepButton
@@ -364,10 +353,10 @@
             this.customBeepButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(173)))), ((int)(((byte)(246)))));
             this.customBeepButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.customBeepButton.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.customBeepButton.Location = new System.Drawing.Point(45, 16);
-            this.customBeepButton.Margin = new System.Windows.Forms.Padding(0, 0, 22, 0);
+            this.customBeepButton.Location = new System.Drawing.Point(68, 25);
+            this.customBeepButton.Margin = new System.Windows.Forms.Padding(0, 0, 33, 0);
             this.customBeepButton.Name = "customBeepButton";
-            this.customBeepButton.Size = new System.Drawing.Size(112, 32);
+            this.customBeepButton.Size = new System.Drawing.Size(168, 49);
             this.customBeepButton.TabIndex = 15;
             this.customBeepButton.Text = "&Play Beep";
             this.customBeepButton.UseVisualStyleBackColor = false;
@@ -378,18 +367,18 @@
             this.frequencyLabel.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.frequencyLabel.AutoSize = true;
             this.frequencyLabel.ForeColor = System.Drawing.Color.LightGray;
-            this.frequencyLabel.Location = new System.Drawing.Point(179, 25);
-            this.frequencyLabel.Margin = new System.Windows.Forms.Padding(0, 0, 8, 0);
+            this.frequencyLabel.Location = new System.Drawing.Point(269, 39);
+            this.frequencyLabel.Margin = new System.Windows.Forms.Padding(0, 0, 12, 0);
             this.frequencyLabel.Name = "frequencyLabel";
-            this.frequencyLabel.Size = new System.Drawing.Size(82, 13);
+            this.frequencyLabel.Size = new System.Drawing.Size(122, 20);
             this.frequencyLabel.TabIndex = 0;
             this.frequencyLabel.Text = "Frequency (Hz):";
             // 
             // frequencyNumericUpDown
             // 
             this.frequencyNumericUpDown.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.frequencyNumericUpDown.Location = new System.Drawing.Point(269, 22);
-            this.frequencyNumericUpDown.Margin = new System.Windows.Forms.Padding(0, 0, 15, 0);
+            this.frequencyNumericUpDown.Location = new System.Drawing.Point(403, 36);
+            this.frequencyNumericUpDown.Margin = new System.Windows.Forms.Padding(0, 0, 22, 0);
             this.frequencyNumericUpDown.Maximum = new decimal(new int[] {
             32767,
             0,
@@ -401,7 +390,7 @@
             0,
             0});
             this.frequencyNumericUpDown.Name = "frequencyNumericUpDown";
-            this.frequencyNumericUpDown.Size = new System.Drawing.Size(59, 20);
+            this.frequencyNumericUpDown.Size = new System.Drawing.Size(88, 26);
             this.frequencyNumericUpDown.TabIndex = 1;
             this.frequencyNumericUpDown.Value = new decimal(new int[] {
             1000,
@@ -414,25 +403,25 @@
             this.durationLabel.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.durationLabel.AutoSize = true;
             this.durationLabel.ForeColor = System.Drawing.Color.LightGray;
-            this.durationLabel.Location = new System.Drawing.Point(343, 25);
-            this.durationLabel.Margin = new System.Windows.Forms.Padding(0, 0, 8, 0);
+            this.durationLabel.Location = new System.Drawing.Point(513, 39);
+            this.durationLabel.Margin = new System.Windows.Forms.Padding(0, 0, 12, 0);
             this.durationLabel.Name = "durationLabel";
-            this.durationLabel.Size = new System.Drawing.Size(72, 13);
+            this.durationLabel.Size = new System.Drawing.Size(109, 20);
             this.durationLabel.TabIndex = 2;
             this.durationLabel.Text = "Duration (ms):";
             // 
             // durationNumericUpDown
             // 
             this.durationNumericUpDown.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.durationNumericUpDown.Location = new System.Drawing.Point(423, 22);
-            this.durationNumericUpDown.Margin = new System.Windows.Forms.Padding(0, 0, 15, 0);
+            this.durationNumericUpDown.Location = new System.Drawing.Point(634, 36);
+            this.durationNumericUpDown.Margin = new System.Windows.Forms.Padding(0, 0, 22, 0);
             this.durationNumericUpDown.Maximum = new decimal(new int[] {
             1000000,
             0,
             0,
             0});
             this.durationNumericUpDown.Name = "durationNumericUpDown";
-            this.durationNumericUpDown.Size = new System.Drawing.Size(68, 20);
+            this.durationNumericUpDown.Size = new System.Drawing.Size(102, 26);
             this.durationNumericUpDown.TabIndex = 3;
             this.durationNumericUpDown.Value = new decimal(new int[] {
             500,
@@ -444,10 +433,9 @@
             // 
             this.bottomDividerLabel.BackColor = System.Drawing.Color.DarkGray;
             this.bottomDividerLabel.Dock = System.Windows.Forms.DockStyle.Top;
-            this.bottomDividerLabel.Location = new System.Drawing.Point(8, 374);
-            this.bottomDividerLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.bottomDividerLabel.Location = new System.Drawing.Point(12, 572);
             this.bottomDividerLabel.Name = "bottomDividerLabel";
-            this.bottomDividerLabel.Size = new System.Drawing.Size(557, 2);
+            this.bottomDividerLabel.Size = new System.Drawing.Size(836, 3);
             this.bottomDividerLabel.TabIndex = 6;
             // 
             // homeLinkLabel
@@ -457,10 +445,9 @@
             this.homeLinkLabel.Dock = System.Windows.Forms.DockStyle.Right;
             this.homeLinkLabel.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.homeLinkLabel.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(173)))), ((int)(((byte)(246)))));
-            this.homeLinkLabel.Location = new System.Drawing.Point(343, 0);
-            this.homeLinkLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.homeLinkLabel.Location = new System.Drawing.Point(577, 0);
             this.homeLinkLabel.Name = "homeLinkLabel";
-            this.homeLinkLabel.Size = new System.Drawing.Size(214, 19);
+            this.homeLinkLabel.Size = new System.Drawing.Size(259, 19);
             this.homeLinkLabel.TabIndex = 7;
             this.homeLinkLabel.TabStop = true;
             this.homeLinkLabel.Text = "https://www.thehelloworldwriter.com";
@@ -477,21 +464,20 @@
             this.topPanel.Controls.Add(this.standardBeepsLabel);
             this.topPanel.Controls.Add(this.homeLinkLabel);
             this.topPanel.Dock = System.Windows.Forms.DockStyle.Top;
-            this.topPanel.Location = new System.Drawing.Point(8, 8);
-            this.topPanel.Margin = new System.Windows.Forms.Padding(2);
+            this.topPanel.Location = new System.Drawing.Point(12, 12);
             this.topPanel.Name = "topPanel";
-            this.topPanel.Size = new System.Drawing.Size(557, 50);
+            this.topPanel.Size = new System.Drawing.Size(836, 77);
             this.topPanel.TabIndex = 8;
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(573, 462);
+            this.ClientSize = new System.Drawing.Size(860, 711);
             this.Controls.Add(this.customBeepFlowLayoutPanel);
             this.Controls.Add(this.bottomDividerLabel);
             this.Controls.Add(this.customBeepLabel);
@@ -500,12 +486,11 @@
             this.Controls.Add(this.topPanel);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(589, 45);
+            this.MinimumSize = new System.Drawing.Size(876, 48);
             this.Name = "MainForm";
             this.Opacity = 0.95D;
-            this.Padding = new System.Windows.Forms.Padding(8);
+            this.Padding = new System.Windows.Forms.Padding(12);
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BeepChecker";
             this.standardBeepsTableLayoutPanel.ResumeLayout(false);
