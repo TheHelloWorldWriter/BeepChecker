@@ -30,7 +30,7 @@ The latest stable version of BeepChecker can be downloaded from [GitHub Releases
 
 ## Source Code
 
-BeepChecker is written in C# using Windows Forms and .NET Framework 2.0. The project is developed using Visual Studio Community 2019, with the help of [StyleCop.Analyzers](https://github.com/DotNetAnalyzers/StyleCopAnalyzers).
+BeepChecker is written in C# using Windows Forms and .NET Framework 4.8. The project is developed using Visual Studio Community 2022, with the help of [StyleCop.Analyzers](https://github.com/DotNetAnalyzers/StyleCopAnalyzers). The installation package is built using [NSIS: Nullsoft Scriptable Install System](https://nsis.sourceforge.io/Main_Page).
 
 ## Contributions
 
