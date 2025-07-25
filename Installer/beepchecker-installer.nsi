@@ -55,15 +55,15 @@ Unicode True
 
 ;Version Information
 
-  VIProductVersion "2.1.1.28"
+  VIProductVersion "2.2.0.30"
   VIAddVersionKey /LANG=${LANG_ENGLISH} "ProductName" "BeepChecker"
   VIAddVersionKey /LANG=${LANG_ENGLISH} "Comments" "Play, test or learn the beeps of your PC"
   VIAddVersionKey /LANG=${LANG_ENGLISH} "CompanyName" "The Hello World Writer"
   VIAddVersionKey /LANG=${LANG_ENGLISH} "LegalTrademarks" ""
   VIAddVersionKey /LANG=${LANG_ENGLISH} "LegalCopyright" "Copyright (c) 2013-2025 The Hello World Writer (https://www.thehelloworldwriter.com)"
   VIAddVersionKey /LANG=${LANG_ENGLISH} "FileDescription" "BeepChecker Installer"
-  VIAddVersionKey /LANG=${LANG_ENGLISH} "FileVersion" "2.1.1.28"
-  VIAddVersionKey /LANG=${LANG_ENGLISH} "ProductVersion" "2.1.1.28"
+  VIAddVersionKey /LANG=${LANG_ENGLISH} "FileVersion" "2.2.0.30"
+  VIAddVersionKey /LANG=${LANG_ENGLISH} "ProductVersion" "2.2.0.30"
 
 ;--------------------------------------
 
@@ -84,7 +84,7 @@ Section
   WriteRegStr   HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\BeepChecker" "UninstallString" "$\"$INSTDIR\uninstall.exe$\""
   WriteRegStr   HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\BeepChecker" "QuietUninstallString" "$\"$INSTDIR\uninstall.exe$\" /S"
   
-  WriteRegStr   HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\BeepChecker" "DisplayVersion" "2.1.1.28"
+  WriteRegStr   HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\BeepChecker" "DisplayVersion" "2.2.0.30"
   WriteRegStr   HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\BeepChecker" "DisplayIcon" "$\"$INSTDIR\beepchecker.exe$\""
   WriteRegDWORD HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\BeepChecker" "EstimatedSize" "102"
   WriteRegStr   HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\BeepChecker" "HelpLink" "https://www.thehelloworldwriter.com/beepchecker/"
@@ -95,7 +95,7 @@ Section
   WriteRegStr   HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\BeepChecker" "URLInfoAbout" "https://www.thehelloworldwriter.com/beepchecker/"
   WriteRegStr   HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\BeepChecker" "URLUpdateInfo" "https://www.thehelloworldwriter.com/beepchecker/"
   WriteRegDWORD HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\BeepChecker" "VersionMajor" "2"
-  WriteRegDWORD HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\BeepChecker" "VersionMinor" "1"
+  WriteRegDWORD HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\BeepChecker" "VersionMinor" "2"
 SectionEnd
 
 ;--------------------------------------
