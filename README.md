@@ -28,13 +28,10 @@ BeepChecker is a **modern Tauri rewrite of a legacy Windows Forms app**, combini
 
 ## Screenshots
 
-**Legacy Windows Forms Version**
-
-![Legacy BeepChecker Screenshot](repo-assets/beepchecker-legacy-screenshot.png)
-
-**Modern Tauri Version**
-
-![Modern BeepChecker Screenshot](repo-assets/beepchecker-screenshot.png)
+| Legacy Windows Forms Version | Modern Tauri Version |
+|:---------------------------:|:--------------------:|
+| [<img alt="Legacy BeepChecker Screenshot" src="repo-assets/beepchecker-legacy-screenshot.png" width="350"/>](repo-assets/beepchecker-legacy-screenshot.png) | [<img alt="Modern BeepChecker Screenshot" src="repo-assets/beepchecker-screenshot.png" width="350"/>](repo-assets/beepchecker-screenshot.png) |
+| *Legacy Windows Forms UI* | *Modern Tauri UI* |
 
 The new Tauri version preserves the familiar look and feel of the original, while being easier to run and maintain on modern Windows systems.
 
@@ -42,19 +39,23 @@ The new Tauri version preserves the familiar look and feel of the original, whil
 
 ### Modern Tauri Version
 
-Download the latest stable version of BeepChecker (Tauri) from [GitHub Releases](https://github.com/TheHelloWorldWriter/BeepChecker/releases). Runs on **Windows 10 and Windows 11**.
+<a href="https://github.com/TheHelloWorldWriter/BeepChecker/releases/latest">
+  <img alt="Download the modern BeepChecker Tauri version from GitHub Releases" src="https://img.shields.io/badge/Download-from_GitHub_Releases-brightgreen?style=plastic&logo=github&color=%23181717">
+</a>
 
-**Requirement:** [Microsoft Edge WebView2](https://developer.microsoft.com/en-us/Microsoft-edge/webview2/) (preinstalled on most Windows systems). The BeepChecker installers will automatically download and install WebView2 if it is not already present.
+Runs on **Windows 11 and Windows 10**. Requires [Microsoft Edge WebView2](https://developer.microsoft.com/en-us/Microsoft-edge/webview2/) (preinstalled on most Windows systems). The BeepChecker installers will automatically download and install it if it's not already present.
 
-You can choose between the installation package or a fully portable edition that does not require installation.
+You can choose between an EXE installer, an MSI installer, or a fully portable edition (ZIP archive containing the standalone EXE, no installation required).
 
 ### Legacy Windows Forms Version
 
-Download the latest legacy version (v2.2.0) from [GitHub Releases](https://github.com/TheHelloWorldWriter/BeepChecker/releases/tag/v2.2.0). Runs on **Windows 11, 10, 8, 7, Vista, and XP** (including legacy, out-of-support versions).
+<a href="https://github.com/TheHelloWorldWriter/BeepChecker/releases/tag/v2.2.0">
+  <img alt="Download the legacy BeepChecker Windows Forms version from GitHub Releases" src="https://img.shields.io/badge/Download-from_GitHub_Releases-brightgreen?style=plastic&logo=github&color=%23181717">
+</a>
 
-**Requirement:** .NET Framework 4.8 (preinstalled on Windows 10 and Windows 11).
+Runs on **Windows 11, 10, 8, 7, Vista, and XP** (yes, on all those legacy, out-of-support Windows versions). Requires [.NET Framework 4.8](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48) (preinstalled on Windows 10 and Windows 11).
 
-You can choose between the installation package or a fully portable edition that does not require installation.
+You can choose between the EXE installer or a fully portable edition (ZIP archive containing the standalone EXE, no installation required).
 
 ## Source Code
 
