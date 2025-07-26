@@ -36,7 +36,7 @@
     "copyright": "© The Hello World Writer. All rights reserved.",
     "homepage": "https://www.thehelloworldwriter.com/beepchecker/",
     "license": "MIT",
-    "licenseFile": "resources/LICENSE.txt",
+    "licenseFile": "resources/LICENSE-installer.txt",
     "longDescription": "BeepChecker lets you play, test, and learn the standard Windows beep sounds—Information, Question, Warning, and Error—or generate custom beeps by frequency and duration. This modern Tauri rewrite faithfully recreates the legacy Windows Forms app, combining nostalgia with portability and ease of use for Windows 10/11.",
     "publisher": "The Hello World Writer",
     "shortDescription": "Play, test, and learn the standard Windows beep sounds, or generate custom beeps.",
