@@ -14,10 +14,10 @@
     "windows": [
       {
         "title": "BeepChecker",
-        "width": 800,
-        "height": 667,
-        "minWidth": 800,
-        "minHeight": 667,
+        "width": 680,
+        "height": 580,
+        "minWidth": 680,
+        "minHeight": 580,
         "backgroundColor": "#000000",
         "center": true,
         "dragDropEnabled": false,

@@ -36,7 +36,7 @@
 @layer components {
   /* Section title */
   .section-title {
-    @apply ml-2 text-2xl font-semibold text-white;
+    @apply text-2xl font-semibold text-white;
   }
 
   /* Section divider */
@@ -51,12 +51,12 @@
 
   /* The beep button */
   .beep-button {
-    @apply w-44 shrink-0 rounded-none border-2 border-button-border bg-button-background px-6 py-2.5 text-center text-base font-normal text-win-white-smoke shadow-none transition-colors duration-150 hover:bg-beepchecker focus:ring-2 focus:ring-beepchecker focus:outline-none;
+    @apply w-40 shrink-0 rounded-none border-2 border-button-border bg-button-background px-4 py-2 text-center text-base font-normal text-win-white-smoke shadow-none transition-colors duration-150 hover:bg-beepchecker focus:ring-2 focus:ring-beepchecker focus:outline-none;
   }
 
   /* Input fields for custom beep settings */
   .beep-input {
-    @apply w-24 rounded-none border border-button-border bg-win-light-gray px-3 py-2 text-base text-black shadow-none focus:ring-2 focus:ring-beepchecker focus:outline-none;
+    @apply w-22 rounded-none border border-button-border bg-win-light-gray pl-2 py-2 text-base text-black shadow-none focus:ring-2 focus:ring-beepchecker focus:outline-none;
   }
 
   /* Label for beep settings */
