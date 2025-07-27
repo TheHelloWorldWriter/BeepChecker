@@ -24,14 +24,13 @@ BeepChecker is very easy to use: you can simply download the small executable fi
 
 ## Modern Rewrite
 
-BeepChecker is a **modern Tauri rewrite of a legacy Windows Forms app.** It combines nostalgia with portability and ease of use for Windows 10 and 11. The new version faithfully recreates the classic UI and experience using web technologies. It is built with plain HTML and JavaScript (no frameworks) and styled with Tailwind CSS for maximum simplicity and portability. The (tiny) backend is written in Rust. BeepChecker does not require .NET Framework or other dependencies (only Microsoft Edge WebView2, which is preinstalled on most Windows systems).
+BeepChecker is a **modern Tauri rewrite of a legacy Windows Forms app.** It combines nostalgia with portability and ease of use for the latest Windows versions. The new version faithfully recreates the classic user interface and experience using web technologies. It is built with plain HTML and JavaScript (no frameworks) and styled with Tailwind CSS. The (tiny) backend is written in Rust. BeepChecker does not require .NET Framework or other dependencies (only Microsoft Edge WebView2, which is preinstalled on most Windows systems).
 
 ## Screenshots
 
 | Legacy Windows Forms Version | Modern Tauri Version |
 |:---------------------------:|:--------------------:|
 | [<img alt="Legacy BeepChecker Screenshot" src="repo-assets/beepchecker-legacy-screenshot.png" width="350"/>](repo-assets/beepchecker-legacy-screenshot.png) | [<img alt="Modern BeepChecker Screenshot" src="repo-assets/beepchecker-screenshot.png" width="350"/>](repo-assets/beepchecker-screenshot.png) |
-| *Legacy Windows Forms UI* | *Modern Tauri UI* |
 
 The new Tauri version preserves the familiar look and feel of the original, while being easier to run and maintain on modern Windows systems.
 
@@ -61,7 +60,7 @@ You can choose between the EXE installer or a fully portable edition (ZIP archiv
 
 The **modern BeepChecker app** is written in [Tauri](https://tauri.app/) and [Rust](https://www.rust-lang.org/) for the backend, and uses plain HTML, JavaScript (no frameworks), and ([Tailwind CSS](https://tailwindcss.com/)) for the frontend. The project is developed using Visual Studio Code and the Tauri CLI. The installation package is built using [NSIS](https://nsis.sourceforge.io/Main_Page) and [WiX Toolset](https://wixtoolset.org/).
 
-The **legacy BeepChecker app** is written in C# using Windows Forms and .NET Framework 4.8. The project is developed using Visual Studio Community 2022, with the help of [StyleCop.Analyzers](https://github.com/DotNetAnalyzers/StyleCopAnalyzers). The installation package is built using [NSIS](https://nsis.sourceforge.io/Main_Page). The complete source code for the legacy Windows Forms version is available in the [`legacy-winforms` branch](https://github.com/TheHelloWorldWriter/BeepChecker/tree/legacy-winforms).
+The **legacy BeepChecker app** is written in C# using Windows Forms and .NET Framework 4.8. The project is developed using Visual Studio Community 2022, with the help of [StyleCop.Analyzers](https://github.com/DotNetAnalyzers/StyleCopAnalyzers). The installation package is built using [NSIS](https://nsis.sourceforge.io/Main_Page). Most of the source code for the legacy Windows Forms version was originally written back in 2015 **(over a decade ago!)** and it's available in the [`legacy-winforms`](https://github.com/TheHelloWorldWriter/BeepChecker/tree/legacy-winforms) branch.
 
 ## Contributions
 
